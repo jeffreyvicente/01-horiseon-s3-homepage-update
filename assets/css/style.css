@@ -1,11 +1,15 @@
 /*
-take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) 
-to meet a certain set of standards or implement a new technology. 
+Name: Jeffrey Vicente
+Section:Module 1: HTML, CSS, and Git
+Assignment: TML CSS Git Challenge: Code Refactor
+Class: M/W/TH 18:30CST
 
+----Description----
+Take existing code and refactor it to meet a certain set of standards or implement a new technology. 
 In this Challenge, a marketing agency has hired you to refactor an existing site to make it more accessible.
 */
 
-
+/* Start of body CSS */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -15,7 +19,9 @@ In this Challenge, a marketing agency has hired you to refactor an existing site
 body {
     background-color: #d9dcd6;
 }
+/* End of body CSS. */
 
+/* Start of header CSS */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -54,10 +60,15 @@ a {
     text-decoration: none;
 }
 
+/* End of header CSS*/
+
+
+/* Sets the paragraph font size to 16px*/
 p {
     font-size: 16px;
 }
 
+/* hero compondent attributes*/
 .hero {
     height: 800px;
     width: 100%;
@@ -67,22 +78,21 @@ p {
     background-position: center;
 }
 
+/* Sets the attributes for the float left class */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Sets the attributes for the float right class */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
 
+
+/* Benifits Section */
+/* benefits | Element contains the attrubutes for benifits class in index.html file. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -94,82 +104,34 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* content-attributes | Element contains the attrubutes for benifits class in index.html file. */
+.benefit-attributes{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* content-attributes h3 | Element contains the attrubutes for the h3 header in the benefits class in  index.html file. */
+.benefit-attributes h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/* content-attributes img | Element contains the attrubutes for images in benefits class in index.html file. */
+.benefit-attributes img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* End of Benefits Sections*/
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+/* Contents Section */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 /* content-attributes | Element contains the attrubutes for content class in index.html file. */
-
 .content-attributes {
     margin-bottom: 20px;
     padding: 50px;
@@ -184,44 +146,14 @@ p {
     max-height: 200px;
 }
 
-/* content-attributes hw | Element contains the attrubutes for the h2 headerin the content class in index.html */
+/* content-attributes h3 | Element contains the attrubutes for the h2 headerin the content class in index.html */
 .content-attributes h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*End of Contents Sections*/
 
-/*
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-*/
-
-
- /*
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-*/
-
+/* Footer */
 .footer {
     padding: 30px;
     clear: both;
@@ -232,3 +164,5 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/* End of Footer */
+
