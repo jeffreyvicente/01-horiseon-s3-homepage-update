@@ -1,3 +1,11 @@
+/*
+take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) 
+to meet a certain set of standards or implement a new technology. 
+
+In this Challenge, a marketing agency has hired you to refactor an existing site to make it more accessible.
+*/
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -160,7 +168,29 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* content-attributes | Element contains the attrubutes for content class in index.html file. */
 
+.content-attributes {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* content-attributes img | Element contains the attrubutes for images in the content class */
+.content-attributes img {
+    max-height: 200px;
+}
+
+/* content-attributes hw | Element contains the attrubutes for the h2 headerin the content class in index.html */
+.content-attributes h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +202,10 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+*/
 
+
+ /*
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,6 +220,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
 
 .footer {
     padding: 30px;
