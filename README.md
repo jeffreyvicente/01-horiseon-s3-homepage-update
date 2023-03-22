@@ -39,7 +39,7 @@ THEN I find a concise, descriptive title
 ```
 ## Preview
 
-View live preview hosted on [GitHub Pages](https://jeffreyvicente.github.io/Challenge-Module-01-HTML-CSS-GIT/)
+View live preview hosted on [GitHub Pages](https://jeffreyvicente.github.io/horiseon-s3-homepage-update/)
 
 ![alt text](assets/images/screenshot-homepage.png)
 
