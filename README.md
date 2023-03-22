@@ -4,7 +4,7 @@
 
 A marketing agency's existing original codebase has been refactored to make it more accessible.
 Consolidated CSS selectors and properties, and organized them to follow the semantic structure of the HTML elements
-Comments before each element or section of the page has been added for better accessibility
+Added comments before each element or section of the page has been added for better accessibility.
 
 
 ## Page Setup
