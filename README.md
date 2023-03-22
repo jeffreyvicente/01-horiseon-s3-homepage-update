@@ -39,6 +39,8 @@ THEN I find a concise, descriptive title
 ```
 ## Preview
 
+View live preview hosted on [GitHub Pages](https://jeffreyvicente.github.io/Challenge-Module-01-HTML-CSS-GIT/)
+
 ![alt text](assets/images/screenshot-homepage.png)
 
 
