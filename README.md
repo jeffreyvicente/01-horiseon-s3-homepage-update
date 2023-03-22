@@ -1,4 +1,4 @@
-# HTML CSS Git Challenge: Code Refactor
+# Horiseon Homepage Update
 
 ## Description
 
