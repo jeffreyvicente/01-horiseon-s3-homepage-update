@@ -104,20 +104,20 @@ p {
     background-color: #2589bd;
 }
 
-/* content-attributes | Element contains the attrubutes for benifits class in index.html file. */
-.benefit-attributes{
+/* content | Element contains the attrubutes for benifits class in index.html file. */
+.benefits div{
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* content-attributes h3 | Element contains the attrubutes for the h3 header in the benefits class in  index.html file. */
-.benefit-attributes h3{
+/* content h3 | Element contains the attrubutes for the h3 header in the benefits class in  index.html file. */
+.benefits h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* content-attributes img | Element contains the attrubutes for images in benefits class in index.html file. */
-.benefit-attributes img {
+/* content img | Element contains the attrubutes for images in benefits class in index.html file. */
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -131,8 +131,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/* content-attributes | Element contains the attrubutes for content class in index.html file. */
-.content-attributes {
+/* content div | Element contains the attrubutes for content class in index.html file. */
+.content div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -141,13 +141,13 @@ p {
     color: #ffffff;
 }
 
-/* content-attributes img | Element contains the attrubutes for images in the content class */
-.content-attributes img {
+/* content img | Element contains the attrubutes for images in the content class */
+.content img {
     max-height: 200px;
 }
 
-/* content-attributes h2 | Element contains the attrubutes for the h2 headerin the content class in index.html */
-.content-attributes h2 {
+/* content h2 | Element contains the attrubutes for the h2 headerin the content class in index.html */
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
